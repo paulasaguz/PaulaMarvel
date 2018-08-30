@@ -62,7 +62,6 @@
 @font-face {
     font-family: 'marvelarge';
     src: url('../fonts/marvelarge.woff2') format('woff2');
-    font-weight: lighter;
     font-style: normal;
 }
 body {

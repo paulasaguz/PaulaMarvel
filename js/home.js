@@ -53,7 +53,7 @@ const getConnection = ()=> {
 	const ts = Date.now ();
 	const hash = md5(ts + privateKey + publicKey);
 	const url =  `http://gateway.marvel.com/v1/public/creators/32/comics?ts=${ts}&apikey=${publicKey}&hash=${hash}`;
-	const BASE_API = 'http://gateway.marvel.com/v1/public/';
+	const BASE_API = 'https://gateway.marvel.com/v1/public/';
 	const fetchuno =`${BASE_API}creators/32/comics?ts=${ts}&apikey=${publicKey}&hash=${hash}`;
 	const fetchdos =`${BASE_API}characters?ts=${ts}&apikey=${publicKey}&hash=${hash}`;
 
