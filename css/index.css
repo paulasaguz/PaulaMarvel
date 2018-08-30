@@ -59,11 +59,14 @@
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'marvelarge';
-    src: url('../fonts/marvelarge.woff2') format('woff2');
+    src: url('../fonts/Marvelarge.woff2') format('woff2');
+    font-weight: normal;
     font-style: normal;
 }
+
 body {
 	margin:0;
 }
@@ -224,7 +227,7 @@ input[type="checkbox"]:checked:before {
 	background-position: -40px 70px;*/
 	height: 450px;
 	color: white;
-	font-family: 'Marvelarge';
+	font-family: 'marvelarge';
 	text-transform: uppercase;
 	font-weight: lighter;
 	position: relative;
@@ -346,7 +349,7 @@ input[type="checkbox"]:checked:before {
 	text-transform:uppercase;
 	font-size: 16px;
 	letter-spacing: 2px;
-	font-family: 'Marvelarge';
+	font-family: 'marvelarge';
 	margin: 10px 0;
 	text-align: right;
 }
@@ -354,7 +357,7 @@ input[type="checkbox"]:checked:before {
 	display: flex;
 }
 .featured-component h2 {
-	font-family: 'Marvelarge';
+	font-family: 'marvelarge';
 	font-weight: lighter;
 	text-transform: uppercase;
 	color: black;
@@ -367,7 +370,7 @@ input[type="checkbox"]:checked:before {
 .featured h3{
 	font-size: 16px;
 	color: #BBBBBB;
-	font-family: 'Marvelarge';
+	font-family: 'marvelarge';
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
@@ -707,7 +710,7 @@ input[type="checkbox"]:checked:before {
 	text-transform: uppercase;
 	font-size: 14px;
 	letter-spacing: 2px;
-	font-family: 'Marvelarge';
+	font-family: 'marvelarge';
 	font-weight: 100;
 	color: white;
 	margin-top: 0;
